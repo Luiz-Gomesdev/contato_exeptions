@@ -1,0 +1,10 @@
+package br.com.luiz.contato.exeptions;
+
+public class AgendaCheiaExeption extends Exception{
+
+	@Override
+	public String getMessage() {
+		return super.getMessage();
+	}
+
+}

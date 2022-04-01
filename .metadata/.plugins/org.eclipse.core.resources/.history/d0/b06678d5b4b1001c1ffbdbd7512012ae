@@ -1,0 +1,30 @@
+package br.com.luiz.contato.application;
+
+import java.util.Scanner;
+
+import br.com.luiz.contato.entities.Agenda;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Agenda agenda = new Agenda();
+		
+		
+		System.out.println("Digite a opção desejada:");
+		System.out.println("1: Consultar contato");
+		System.out.println("2: Adicionar contato");
+		System.out.println("3: Sair");
+		
+		int opcao = sc.nextInt();
+				
+		agenda.obterOpcaoMenu(opcao);
+		
+	
+	
+	
+	sc.close();
+	}
+}

@@ -1,0 +1,60 @@
+package br.com.luiz.contato.entities;
+
+public class Contato extends Agenda{
+	
+	private String nome;
+	private String telefone;
+	private String email;
+	private int id;
+	private int contador;
+	
+	public Contato() {
+		super();
+	}
+
+	public Contato(String nome, String telefone, String email, int id, int contador) {
+		super();
+		this.nome = nome;
+		this.telefone = telefone;
+		this.email = email;
+		this.id = id;
+		this.contador = contador;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Contato() {
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getTelefone() {
+		return telefone;
+	}
+
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+	
+
+}
